@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+  	let x = d3.scaleTime().range([0, width]);
+ 	x.domain(d3.extent(data, function(d) { return d.date; }));
+	g.append("g").attr("class", "axis axis--x")
+		.attr("transform", "translate(0," + height + ")")
+		.call(d3.axisBottom(x));
+]]></content>
+<tabTrigger>sn-d3-xAxis-nolabel</tabTrigger>
+<description>making xaxis with d3 without label</description>
+<scope>text.html.basic</scope>
+</snippet>
