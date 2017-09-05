@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+				let y = d3.scaleLinear().range([height, 0]);
+				y.domain(d3.extent(data,(d)=>{d.press}));
+				g.append("g")
+				      	.attr("class", "axis axis--y")
+				     	.call(d3.axisLeft(y))
+					.append("text")
+      					.attr("transform", "rotate(-90)")
+      					.attr("y", 6)
+      					.attr("dy", "0.71em")
+      					.attr("fill", "#000")
+      					.text("key hit");
+]]></content>
+<tabTrigger>sn-d3-yAxis-left</tabTrigger>
+<description>make y axis left with text</description>
+<scope>text.html.basic</scope>
+</snippet>
