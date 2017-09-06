@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+var point = g.append("g")
+				    .attr("class", "line-point")
+				    .selectAll('circle')
+				    	.data(data)
+				    	.enter().append('circle')
+				    	.attr("cx", d => x(d.time))
+				     	.attr("cy", d => y(d.press))
+				     	.attr("stroke", "steelblue")
+				     	.attr("stroke-width", 0.5)
+				     	.attr("opacity",d=> d.press > 1?0.0:0.0)
+				     	.attr("r", 2);
+]]></content>
+<tabTrigger>sn-d3-line-point-circle</tabTrigger>
+<description>make a circle graph </description>
+<scope>text.html.basic, source.js.embedded.html, meta.function-call.js, meta.group.js, meta.block.js, meta.block.js, meta.function-call.method.js, meta.group.js, meta.block.js, storage.type.js</scope>
+</snippet>

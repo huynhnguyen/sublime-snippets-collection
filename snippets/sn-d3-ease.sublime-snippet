@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+const plen = path.node().getTotalLength();
+				console.log(plen);
+				path.attr("stroke-dasharray", plen + " " + plen)
+				 	.attr("stroke-dashoffset", plen)
+				 	.transition()
+						.duration(2000).ease(d3.easeLinear)
+				        .attr("stroke-dashoffset",
+]]></content>
+<tabTrigger>sn-d3-ease</tabTrigger>
+<description>make ease effect on line by stroke</description>
+<scope>text.html.basic, source.js.embedded.html, meta.function-call.js, meta.group.js, meta.block.js, meta.block.js, meta.function-call.method.js, meta.group.js, meta.block.js, storage.type.js</scope>
+</snippet>

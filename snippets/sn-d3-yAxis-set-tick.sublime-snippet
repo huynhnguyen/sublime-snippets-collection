@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+g.append("g")
+				    .attr("class", "axis axis--y")
+				    .call(d3.axisLeft(y).tickValues(d3.range(0, 80, 4));
+]]></content>
+<tabTrigger>sn-d3-yAxis-set-tick</tabTrigger>
+<description>set tick value for yAxis</description>
+<scope>text.html.basic, source.js.embedded.html, meta.function-call.js, meta.group.js, meta.block.js, meta.block.js, meta.function-call.method.js, meta.group.js, meta.block.js, variable.other.object.js</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+				let line = d3.line().x(d => x(d.time))
+				    		.y(d => y(d.press)).curve(d3.curveMonotoneX)
+				
+				g.append("g").append("path")
+      				.datum(data)
+	      				.attr("fill", "none")
+	      				.attr("stroke", "steelblue")
+	      				.attr("stroke-linejoin", "round")
+	      				.attr("stroke-linecap", "round")
+	      				.attr("stroke-width", 1.5)
+	      				.attr("d", line);
+]]></content>
+<tabTrigger>sn-d3-line</tabTrigger>
+<description>make a line</description>
+<scope>text.html.basic, source.js.embedded.html, meta.function-call.js, meta.group.js, meta.block.js, meta.block.js, meta.function-call.method.js, meta.group.js, meta.block.js</scope>
+</snippet>
