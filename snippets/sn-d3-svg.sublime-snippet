@@ -8,5 +8,5 @@ var svg = d3.select("svg"),
 ]]></content>
 <tabTrigger>sn-d3-svg</tabTrigger>
 <description>adding svg and margin padding</description>
-<scope>text.html.basic</scope>
+<scope>text.html.basic, source.js.embedded.html, meta.function-call.js, meta.group.js, meta.block.js, meta.block.js, meta.function-call.method.js, meta.group.js, meta.block.js, storage.type.js</scope>
 </snippet>

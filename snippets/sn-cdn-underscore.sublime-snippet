@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+]]></content>
+<tabTrigger>sn-cdn-underscore</tabTrigger>
+<description>add underscore cdn</description>
+<scope>text.html.basic, meta.tag.script.begin.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

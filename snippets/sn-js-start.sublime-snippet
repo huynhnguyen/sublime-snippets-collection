@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+(()=>{
+	console.log('script start');
+	
+})();
+]]></content>
+<tabTrigger>sn-js-start</tabTrigger>
+<description>start a js function</description>
+<scope>text.html.basic, source.js.embedded.html, meta.group.js, punctuation.section.group.js</scope>
+</snippet>

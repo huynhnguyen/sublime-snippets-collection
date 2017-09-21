@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+]]></content>
+<tabTrigger>sn-cdn-jquery</tabTrigger>
+<description>load jquery</description>
+<scope>text.html.basic, meta.tag.script.begin.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
